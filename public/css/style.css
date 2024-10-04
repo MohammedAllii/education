@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Navbar Style */
+#navbar {
+    background-color: rgb(109, 196, 218,0.99);
+    margin-top:10px;
+}
+.navbarText {
+    font-family: serif;
+    color:black;
+}
+#navbarImage{
+    width: 35px;
+    height:35px;
+    border-radius:100%
+}
+/* end navbar Style */
+
+/* Side bar Style */
+#sideBar{
+    background-color: rgb(109, 196, 218,0.99);
+
+}
+.styleNav{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+/* end side bar Style */
+
+/* Card down navbar */
+#btnAddPage{
+    font-weight: bold;
+    color: black;
+    background-color: rgb(230, 230, 230)    ;
+    border-radius: 50px;
+}
+#btnAddPageForm{
+    font-weight: bold;
+    color: black;
+    border: 1px solid black;
+    background-color: rgb(125, 216, 252)    ;
+    border-radius: 50px;
+}
+#cardTop {
+    background-color: #048ab7;
+}
+#imageCardTop{
+    width: 70px;
+    height: 70px;
+}
+/* End Card down navbar */
+
+
+/* Table managements */
+.tableText{
+    font-family: Cottonwood;
+    color: black;;
+}
+.tableHeader{
+    background-color: #048ab7  ;
+    color: white;
+    
+}
+
+.table-wrapper {
+    border-radius: 30px; 
+  }
+  .circleRed{
+    font-size:10px;color:rgb(240, 84, 84)
+  }  
+  .circleGreen{
+    font-size:10px;color:rgb(0, 255, 0)
+  }
+  /* End Table Managements */
+
+/* Modal Edit */
+#ModalImage{
+    max-height: 40px;
+     max-width: 100px
+}
+.addFormImageUser{
+    width: 130px;
+     height: 110px;
+    border-radius:10px
+}
+.btnSelect{
+    display: none;
+}
+/* End Modal Edit */
+
+/* Details text icons in modal */
+#seeDetailsUser{
+    max-height: 35px;
+     max-width: 100px;
+}
+/* End Details text icons in modal */
+
+/* Table */
+.iconsTable{
+    max-height: 20px;
+     max-width: 30px;
+}
+#notfound{
+    max-height: 200px;max-width: 200px;
+}
+/* End Table Icons */
+
+/* Modal */
+.headerModal{
+    background-color:#048ab7;
+    color:white;
+}
+
+#cancelBtn{
+    background-color: #dedcdc;
+    font-weight:bold;
+    color:black
+}
+#deleteBtn{
+    background-color: #d94545;
+    font-weight:bold;color:white
+}
+#updateBtn{
+    background-color: #007ba4;
+    font-weight:bold;color:black;
+    color: white;
+}
+.modalImage{
+    max-width: 130px;
+    max-height: 130px;
+    border: 1px solid;
+    border-radius:10px
+}
+#buttonsModal{
+    max-height: 25px;
+     max-width: 100px;
+}
+/* End Modal */
+
+/* type room card */
+#typeRoom {
+    background-color: #048ab7;
+}
+
+/* Equipements images*/
+.equipementsImage{
+    width: 25px;height:25px
+}
+
+#titreTop{
+    font-family: Georgia;
+    color: white;
+    font-size: 15px;
+}
+.addFormImage{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+
+/* Calendar Style */
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+  }
+
+  .calendar {
+    width: 100%;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .calendar-header {
+    background-color: #048ab7;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-family: serif;
+    font-weight: bold;
+  }
+
+  .calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    font-weight: bold;
+    padding: 5px;
+    color: #000000;
+    background-color: #ffffff;
+  }
+
+  .day {
+    padding: 2%;
+    border: 1px solid #f0f0f0;
+    text-align: center;
+    font-family: serif;
+    cursor: pointer;
+  }
+
+  .event {
+    padding: 2px 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 2px;
+  }
+
+  .current-date {
+    background-color: #c3b6b3;
+    color: white;
+    font-weight: bold;
+  }
+
+  .selected-date {
+    background-color: #709ce7;
+  }
+
+  .past-date {
+    color: #bebbbb;
+    cursor: not-allowed;
+  }
+  .center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+/* Fin Calendar Style*/
+
+/* Pagination style */
+.mt-100{margin-top: 100px}
+  .pagination > .page-link {
+        background-color: #9abde8; 
+        border-color: blue; 
+    }
+
+    .pagination > .page-item.active .page-link {
+        color: black;
+        background-color: #9abde8; 
+        border-color: black; 
+    }
+/* End Pagination Style */
