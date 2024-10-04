@@ -118,17 +118,17 @@
           <div class="card">
             <div class="card-header p-3 pt-2">
               <div class="icon icon-lg icon-shape shadow-dark text-center border-radius-xl mt-n4 position-absolute">
-                <img src="{{ asset('courses.png') }}" alt="Your Image" style="width: 80px;" class="img-fluid">
+                <img src="{{ asset('classroom.png') }}" alt="Your Image" style="width: 80px;" class="img-fluid">
               </div>
               <div class="text-end pt-1">
-                <span class="tableText nav-link-text ms-1 text-black text-lg" style="font-family: serif;">Courses</span>
+                <span class="tableText nav-link-text ms-1 text-black text-lg" style="font-family: serif;">Classrooms</span>
 
                 <h4 class="tableText mb-0">10</h4>
               </div>
             </div>
             <hr class="dark horizontal my-0">
             <div class="card-footer p-3" style="background-color: rgb(109, 196, 218)">
-              <span class="tableText nav-link-text ms-1 text-md font-weight-bolder" style="font-family: serif;;color:black">All Courses</span>
+              <span class="tableText nav-link-text ms-1 text-md font-weight-bolder" style="font-family: serif;;color:black">All Classrooms</span>
             </div>
           </div>
         </div>
@@ -152,52 +152,6 @@
         </div>
 
 
-        <div class="row mt-4">
-          <div class="col-lg-7 mb-lg-0 mb-4">
-            <div class="card z-index-2 h-100">
-              <div class="card z-index-0 " >                
-                <div class="card-body" >
-                  <div class="d-flex ">
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-5">
-            <div class="card z-index-2">
-              
-              <div class="card">
-                <div class="card-header pb-0">
-                  <div class="row">
-                    <div class="col-lg-12 col-7">
-                      <h6 class="tableText">
-                        <img src="{{ asset('upcomming.png') }}" alt="Your Image" style="width: 30px;" class="img-fluid">
-                        Today's Upcoming Reservations
-                      </h6>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-body px-0 pb-2">
-                  <div class="table-responsive">
-                    <table class="table align-items-center mb-0">
-                      <thead>
-                        <tr>
-                          <th class="tableText text-uppercase text-xxs font-weight-bolder">Booking Title</th>
-                          <th class="tableText text-uppercase text-xxs font-weight-bolder ps-2">Booking Employee</th>
-                          <th class="tableText text-center text-uppercase text-xxs font-weight-bolder">Time</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                                          </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-        </div>
 
 
                 

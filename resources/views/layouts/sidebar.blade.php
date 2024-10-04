@@ -78,17 +78,6 @@
             </div>
           </li>
           <hr class="horizontal dark mt-0 mb-2">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-black" href="#" style="color:black;font-weight:bold;" id="employeeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fa fa-book"></i>&nbsp;
-                Exams
-            </a>
-            <div class="dropdown-menu" aria-labelledby="employeeDropdown">
-                <a class="dropdown-item" href="#" style="color:black;font-weight:bold;{{ Request::is('users')  ? 'background-color: #6aa3ff;color:black;' : '' }}">
-                  <i class="fa fa-list"></i>&nbsp; Exams managements              
-                </a>
-            </div>
-          </li>
 
 
 
@@ -96,7 +85,7 @@
         @guest
         <hr>        
         @else
-        <hr><hr>
+        <hr><hr><hr><hr>
         <li class="nav-item">
           <a class="nav-link" href="#" style="color:black;font-weight:bold;{{ Request::is('profile')  ? 'background-color: #6aa3ff;color:black;' : '' }}" >
               <i class="fa fa-user-cog"></i>&nbsp;

@@ -191,7 +191,7 @@
                             <select id="class_id" class="form-control @error('class_id') is-invalid @enderror" name="class_id" required style="border: 1px solid;padding:10px">
                                 <option value="">Select Class</option>
                                 @foreach($classes as $class)
-                                    <option value="{{ $class->id }}" {{ old('class_id') == $class->id ? 'selected' : '' }}>{{ $class->class_name }}</option>
+                                    <option value="{{ $class->id }}" {{ old('class_id') == $class->id ? 'selected' : '' }}>{{ $class->grade_level }}{{ $class->class_name }}</option>
                                 @endforeach
                             </select>
                             @error('class_id')
